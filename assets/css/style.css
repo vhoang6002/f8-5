@@ -87,11 +87,12 @@ b {
   margin: 0 auto;
   padding: 20px 30px;
   background-color: white;
+  border-radius: 20px;
 }
 .form div {
   margin-top: 12px;
 }
-.form .box-avatar{
+.form .box-avatar {
   max-width: 350px;
 }
 .form input {
@@ -99,7 +100,12 @@ b {
   padding: 3px;
   border: 2px solid;
   border-radius: 5px;
-  margin-left: 4px;
+}
+.form .box-info {
+  display: block;
+  width: 528px;
+  margin-top: 6px;
+  padding: 5px 12px;
 }
 .form .info {
   font-size: 16px;
@@ -120,6 +126,9 @@ b {
   border: 3px solid #ccc;
   border-radius: 5px;
 }
-.form .btn:hover{
+.form .btn:hover {
   background-color: #ccc;
+}
+.form .dob {
+  margin-left: 4px;
 }
