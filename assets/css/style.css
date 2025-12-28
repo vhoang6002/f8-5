@@ -81,3 +81,35 @@ b {
   background-color: white;
   color: black;
 }
+/* =============FORM================= */
+.form{
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+}
+.form div{
+  margin-top: 12px;
+}
+.form input{
+  outline: none;
+  padding: 3px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-left: 4px;
+}
+.form .info{
+  font-size: 16px;
+  font-weight: 500;
+}
+.form .avatar{
+  display: block;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.form .btn{
+  padding: 6px 12px;
+  border:transparent;
+  border-radius: 5px;
+}

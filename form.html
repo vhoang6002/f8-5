@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <form action="" class="form">
+      <h1>Register</h1>
+      <div>
+        <label>
+          <span class="info">Name : </span>
+          <input type="text" name="Name" placeholder="Name....." />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span class="info">Email :</span>
+          <input type="email" name="email" placeholder="Email....." />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span class="info">Phone :</span>
+          <input type="tel" name="Phone" placeholder="Phone....." />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span class="info">Password:</span>
+          <input type="password" name="password" placeholder="Password....." />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span class="info">Confirm Password:</span>
+          <input
+            type="password"
+            name="Confirm-Password"
+            placeholder="Confirm-Password....."
+          />
+        </label>
+      </div>
+      <div>
+        <span class="info">Gender:</span>
+        <label><input type="radio" name="Gender" id="" />Male</label>
+        <label><input type="radio" name="Gender" id="" />Female</label>
+        <label><input type="radio" name="Gender" id="" />Other</label>
+      </div>
+      <div>
+        <label>
+          <span class="info">Date of Birth:</span>
+          <input type="date" name="" id="" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span class="info">Address:</span>
+          <input type="text" name="" id="" placeholder="Address....." />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span class="info">Profile Picture (Avatar):</span>
+          <img
+            src="./assets/img/avater-placeholder.png"
+            alt=""
+            class="avatar"
+          />
+          <input type="file" name="avatar" id="" hidden />
+        </label>
+      </div>
+      <div>
+        <span class="info">Communication Preferences:</span>
+        <ul style="list-style: none; padding-left: 4px; margin-top: 2px">
+          <li>
+            <label>
+              <input type="checkbox" name="Communication Preferences" id="" />
+              Subscribe to Newsletter
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="Communication Preferences" id="" />
+              Receive Promotional Emails
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="Communication Preferences" id="" />
+              Get Product Updates
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button class="btn">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
