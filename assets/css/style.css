@@ -59,3 +59,21 @@ b{
 .cv .job-title {
   margin-top: 16px;
 }
+
+/* ===============MENU=================== */
+.menu ul{
+  display: flex;
+  justify-content: center;
+  background-color: #3e5cca;
+}
+.menu ul a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 28px 16px;
+  font-size: 20px;
+}
+.menu ul a:hover{
+  background-color: white;
+  color:black;
+}
