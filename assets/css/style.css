@@ -91,6 +91,9 @@ b {
 .form div {
   margin-top: 12px;
 }
+.form .box-avatar{
+  max-width: 350px;
+}
 .form input {
   outline: none;
   padding: 3px;
